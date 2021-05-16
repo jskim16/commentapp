@@ -1,0 +1,28 @@
+{
+  "recomp": [
+    {
+      "id": 1,
+      "desc": "테스트용"
+    },
+    {
+      "id": 2,
+      "desc": "테스트용222"
+    }
+  ],
+  "comments": [
+    { "id": 1, "recompID": 1, "text": "내용 111", "createAt": "세진" },
+    { "id": 2, "recompID": 1, "text": "내용 22", "createAt": "수민" },
+    { "id": 2, "recompID": 2, "text": "내용 32", "createAt": "수민" }
+  ],
+  "subcomments": [
+    {
+      "id": 1,
+      "commentID": 1,
+      "text": "대댓글 1111",
+      "createAt": "길동"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
